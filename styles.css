@@ -14,13 +14,13 @@ code {
 }
 
 .app {
-  background: #ffa630;
+  background: #686868;
   padding: 30px;
   height: 100vh;
 }
 
 .todo-list{
-  background: #ffa630;
+  background: #F7FAF2;
   border-radius: 4px;
   padding: 5px;
   max-width: 400px;
@@ -28,7 +28,7 @@ code {
 }
 
 .todo{
-  background: #ffa630;
+  background: #FFA630;
   box-shadow: 1px 1px 1px #000;
   padding: 3px 10px;
   font-size: 24px;
@@ -37,13 +37,15 @@ code {
   display:flex;
   align-items: center;
   justify-content: space-between;
+  font-style: italic;
 }
 
 .input{
   width: 100%;
   box-sizing: border-box;
-  border: 0;
+  border: 2;
   border-radius: 4px;
+  border-color: #FFA630;
   box-shadow: none;
   padding: 1rem;
   height: 2.25em;
